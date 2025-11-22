@@ -181,8 +181,12 @@ body {
 }
 
 .hero-placeholder {
-    width: 300px;
-    height: 300px;
+    /* width: 300px;
+    height: 300px; */
+    width: 60vw;
+    height: 60vw;
+    max-width: 300px;
+    max-height: 300px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     display: flex;
@@ -194,8 +198,12 @@ body {
 }
 
 .hero-pic {
-    width: 300px;          /* size of circle */
-    height: 300px;
+    /* width: 300px;       
+    height: 300px; */
+    width: 60vw;
+    height: 60vw;
+    max-width: 300px;
+    max-height: 300px;
     border-radius: 50%;    /* makes it circular */
     overflow: hidden;      /* crop anything outside circle */
     display: flex;
